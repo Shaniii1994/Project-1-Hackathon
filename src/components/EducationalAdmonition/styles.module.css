@@ -1,0 +1,44 @@
+.admonition {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid #333;
+  background-color: #f8f9fa;
+  border-radius: 0 4px 4px 0;
+}
+
+.admonition.note {
+  border-left-color: #4285f4;
+  background-color: #e8f0fe;
+}
+
+.admonition.tip {
+  border-left-color: #34a853;
+  background-color: #e6f4ea;
+}
+
+.admonition.warning {
+  border-left-color: #fbbc04;
+  background-color: #fef7e0;
+}
+
+.admonition.caution {
+  border-left-color: #ea4335;
+  background-color: #fce8e6;
+}
+
+.admonitionHeader {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.admonitionTitle {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.admonitionBody {
+  line-height: 1.6;
+}
