@@ -1,0 +1,53 @@
+# Documentation API Contract
+
+## Overview
+API endpoints for the Digital Twin Simulation documentation module, supporting content delivery and educational features.
+
+## Endpoints
+
+### GET /api/docs/module-2
+**Description**: Retrieve module metadata and chapter structure
+**Response**:
+```json
+{
+  "moduleId": "module-2",
+  "title": "Digital Twin Simulation (Gazebo & Unity)",
+  "description": "Physics-based simulation and environment modeling for humanoid robots",
+  "chapters": [
+    {
+      "id": "physics-simulation",
+      "title": "Physics Simulation with Gazebo",
+      "sections": ["gravity", "collisions", "dynamics"]
+    },
+    {
+      "id": "high-fidelity-envs",
+      "title": "High-Fidelity Environments in Unity",
+      "sections": ["rendering", "human-robot-interaction", "visual-quality"]
+    },
+    {
+      "id": "sensor-simulation",
+      "title": "Sensor Simulation",
+      "sections": ["lidar", "depth-cameras", "imus", "sensor-fusion"]
+    }
+  ],
+  "targetAudience": "AI students with basic robotics concepts"
+}
+```
+
+### GET /api/docs/module-2/{chapterId}
+**Description**: Retrieve specific chapter content and structure
+**Response**:
+```json
+{
+  "chapterId": "{chapterId}",
+  "title": "{chapter title}",
+  "sections": [
+    {
+      "id": "{section-id}",
+      "title": "{section title}",
+      "path": "/docs/modules/module-2/{chapterId}/{section-id}"
+    }
+  ],
+  "learningObjectives": ["array of learning objectives"]
+}
+```
