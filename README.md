@@ -19,6 +19,11 @@ The content is organized as a Docusaurus-based documentation site with the follo
   - Chapter 2: Python to ROS with rclpy
   - Chapter 3: Humanoid Modeling with URDF
 
+- **Module 2**: Digital Twin Simulation (Gazebo & Unity)
+  - Chapter 1: Physics Simulation with Gazebo
+  - Chapter 2: High-Fidelity Environments in Unity
+  - Chapter 3: Sensor Simulation
+
 ## Target Audience
 
 - AI students with basic Python knowledge
@@ -60,18 +65,23 @@ After completing this module, students will be able to:
 ## Repository Structure
 
 ```
-├── docs/                   # Educational content
-│   ├── index.md           # Main documentation index
-│   └── ros-module-1/      # Module 1 content
-│       ├── introduction.md
-│       ├── chapter-1-foundations/
-│       ├── chapter-2-python-integration/
-│       └── chapter-3-urdf-modeling/
-├── src/                   # Custom Docusaurus components
+├── docs/                               # Educational content
+│   ├── index.md                      # Main documentation index
+│   ├── ros-module-1/                 # Module 1 content
+│   │   ├── introduction.md
+│   │   ├── chapter-1-foundations/
+│   │   ├── chapter-2-python-integration/
+│   │   └── chapter-3-urdf-modeling/
+│   └── modules/module-2-digital-twin/ # Module 2 content
+│       ├── index.md
+│       ├── 1-physics-simulation/
+│       ├── 2-high-fidelity-envs/
+│       └── 3-sensor-simulation/
+├── src/                              # Custom Docusaurus components
 │   └── components/
-├── docusaurus.config.js   # Docusaurus configuration
-├── sidebars.js           # Navigation sidebar configuration
-└── package.json          # Project dependencies
+├── docusaurus.config.js              # Docusaurus configuration
+├── sidebars.js                       # Navigation sidebar configuration
+└── package.json                      # Project dependencies
 ```
 
 ## Technical Stack

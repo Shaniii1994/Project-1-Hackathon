@@ -39,6 +39,44 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Module 2: Digital Twin Simulation (Gazebo & Unity)',
+      items: [
+        'modules/module-2-digital-twin/index',
+        {
+          type: 'category',
+          label: 'Chapter 1: Physics Simulation with Gazebo',
+          items: [
+            'modules/module-2-digital-twin/1-physics-simulation/index',
+            'modules/module-2-digital-twin/1-physics-simulation/gravity',
+            'modules/module-2-digital-twin/1-physics-simulation/collisions',
+            'modules/module-2-digital-twin/1-physics-simulation/dynamics'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Chapter 2: High-Fidelity Environments in Unity',
+          items: [
+            'modules/module-2-digital-twin/2-high-fidelity-envs/index',
+            'modules/module-2-digital-twin/2-high-fidelity-envs/rendering',
+            'modules/module-2-digital-twin/2-high-fidelity-envs/human-robot-interaction',
+            'modules/module-2-digital-twin/2-high-fidelity-envs/visual-quality'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Chapter 3: Sensor Simulation',
+          items: [
+            'modules/module-2-digital-twin/3-sensor-simulation/index',
+            'modules/module-2-digital-twin/3-sensor-simulation/lidar',
+            'modules/module-2-digital-twin/3-sensor-simulation/depth-cameras',
+            'modules/module-2-digital-twin/3-sensor-simulation/imus',
+            'modules/module-2-digital-twin/3-sensor-simulation/sensor-fusion'
+          ],
+        },
+      ],
+    },
   ],
 };
 
