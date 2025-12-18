@@ -56,7 +56,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ROS 2 for AI Students',
+        title: 'Hackathon I: Physical AI & Humanoid Robotics Textbook',
         logo: {
           alt: 'ROS Logo',
           src: 'img/ros-logo.svg', // You can add this image to static/img/
@@ -66,7 +66,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Module 1',
+            label: 'Modules',
           },
           {
             href: 'https://github.com/facebook/docusaurus',

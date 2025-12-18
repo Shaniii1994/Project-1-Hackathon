@@ -24,6 +24,11 @@ The content is organized as a Docusaurus-based documentation site with the follo
   - Chapter 2: High-Fidelity Environments in Unity
   - Chapter 3: Sensor Simulation
 
+- **Module 3**: AI-Robot Brain (NVIDIA Isaac™)
+  - Chapter 1: Isaac Sim - Photorealistic Simulation and Synthetic Data
+  - Chapter 2: Isaac ROS - Accelerated Perception and VSLAM
+  - Chapter 3: Nav2 - Navigation and Path Planning for Humanoids
+
 ## Target Audience
 
 - AI students with basic Python knowledge
@@ -72,11 +77,16 @@ After completing this module, students will be able to:
 │   │   ├── chapter-1-foundations/
 │   │   ├── chapter-2-python-integration/
 │   │   └── chapter-3-urdf-modeling/
-│   └── modules/module-2-digital-twin/ # Module 2 content
+│   ├── modules/module-2-digital-twin/ # Module 2 content
+│   │   ├── index.md
+│   │   ├── 1-physics-simulation/
+│   │   ├── 2-high-fidelity-envs/
+│   │   └── 3-sensor-simulation/
+│   └── modules/module-3-ai-brain/     # Module 3 content
 │       ├── index.md
-│       ├── 1-physics-simulation/
-│       ├── 2-high-fidelity-envs/
-│       └── 3-sensor-simulation/
+│       ├── 1-isaac-sim/
+│       ├── 2-isaac-ros/
+│       └── 3-nav2-navigation/
 ├── src/                              # Custom Docusaurus components
 │   └── components/
 ├── docusaurus.config.js              # Docusaurus configuration
