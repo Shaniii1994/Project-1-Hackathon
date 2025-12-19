@@ -66,11 +66,11 @@ As an AI student, I want to implement accelerated perception algorithms using Is
 
 **Independent Test**: Students can connect Isaac ROS perception nodes to sensor data streams, run VSLAM algorithms, and visualize the resulting maps and object detections without needing navigation components.
 
-- [ ] T019 [US2] Create the Isaac ROS chapter index.md with overview
-- [ ] T020 [US2] Create perception-pipelines.md content explaining perception algorithms and processing
-- [ ] T021 [US2] Create vslam-implementation.md content covering VSLAM algorithms and visualization
-- [ ] T022 [US2] Create sensor-data-processing.md content about sensor data handling and fusion
-- [ ] T023 [US2] Add practical examples and exercises for Isaac ROS concepts
+- [X] T019 [US2] Create the Isaac ROS chapter index.md with overview
+- [X] T020 [US2] Create perception-pipelines.md content explaining perception algorithms and processing
+- [X] T021 [US2] Create vslam-implementation.md content covering VSLAM algorithms and visualization
+- [X] T022 [US2] Create sensor-data-processing.md content about sensor data handling and fusion
+- [X] T023 [US2] Add practical examples and exercises for Isaac ROS concepts
 - [ ] T024 [US2] Include diagrams and visualizations for Isaac ROS concepts
 - [ ] T025 [US2] Create hands-on tutorials for Isaac ROS implementation
 - [ ] T026 [US2] Add assessment questions to verify understanding of Isaac ROS concepts
