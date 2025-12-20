@@ -40,7 +40,7 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Hackathon I: Physical AI & Humanoid Robotics Textbook',
+      title: 'Physical AI & Humanoid Robotics',
       logo: {
         alt: 'ROS Logo',
         src: 'img/ros-logo.svg',
@@ -50,7 +50,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Modules',
+          label: 'Book',
         },
         {
           href: 'https://github.com/facebook/docusaurus',

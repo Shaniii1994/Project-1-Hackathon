@@ -98,30 +98,34 @@ const sidebars = {
           type: 'category',
           label: 'Chapter 1: Isaac Sim - Photorealistic Simulation',
           items: [
-            'modules/module-3-ai-brain/1-isaac-sim/index',
-            'modules/module-3-ai-brain/1-isaac-sim/photorealistic-simulation',
-            'modules/module-3-ai-brain/1-isaac-sim/synthetic-data-generation',
-            'modules/module-3-ai-brain/1-isaac-sim/environment-configuration'
+            'modules/module-3-ai-brain/isaac-sim/index',
+            'modules/module-3-ai-brain/isaac-sim/photorealistic-simulation',
+            'modules/module-3-ai-brain/isaac-sim/synthetic-data-generation',
+            'modules/module-3-ai-brain/isaac-sim/environment-configuration',
+            'modules/module-3-ai-brain/isaac-sim/assessment',
+            'modules/module-3-ai-brain/isaac-sim/best-practices'
           ],
         },
         {
           type: 'category',
           label: 'Chapter 2: Isaac ROS - Accelerated Perception',
           items: [
-            'modules/module-3-ai-brain/2-isaac-ros/index',
-            'modules/module-3-ai-brain/2-isaac-ros/perception-pipelines',
-            'modules/module-3-ai-brain/2-isaac-ros/vslam-implementation',
-            'modules/module-3-ai-brain/2-isaac-ros/sensor-data-processing'
+            'modules/module-3-ai-brain/isaac-ros/index',
+            'modules/module-3-ai-brain/isaac-ros/perception-pipelines',
+            'modules/module-3-ai-brain/isaac-ros/vslam-implementation',
+            'modules/module-3-ai-brain/isaac-ros/sensor-data-processing',
+            'modules/module-3-ai-brain/isaac-ros/diagrams-visualizations',
+            'modules/module-3-ai-brain/isaac-ros/examples-exercises'
           ],
         },
         {
           type: 'category',
           label: 'Chapter 3: Nav2 - Navigation and Path Planning',
           items: [
-            'modules/module-3-ai-brain/3-nav2-navigation/index',
-            'modules/module-3-ai-brain/3-nav2-navigation/path-planning',
-            'modules/module-3-ai-brain/3-nav2-navigation/navigation-maps',
-            'modules/module-3-ai-brain/3-nav2-navigation/obstacle-avoidance'
+            'modules/module-3-ai-brain/nav2-navigation/index',
+            'modules/module-3-ai-brain/nav2-navigation/path-planning',
+            'modules/module-3-ai-brain/nav2-navigation/navigation-maps',
+            'modules/module-3-ai-brain/nav2-navigation/obstacle-avoidance'
           ],
         },
       ],
