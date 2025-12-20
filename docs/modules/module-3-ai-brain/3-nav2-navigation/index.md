@@ -1,38 +1,40 @@
 # Chapter 3: Nav2 - Navigation and Path Planning for Humanoids
 
-Welcome to the Nav2 Navigation chapter! This chapter focuses on NVIDIA Isaac ROS Nav2 integration for navigation and path planning in humanoid robotics applications.
+Welcome to the Nav2 Navigation chapter! This chapter focuses on implementing navigation and path planning algorithms using Navigation2 (Nav2) specifically adapted for humanoid robots, enabling students to understand how robots plan and execute movement in complex environments.
 
 ## Overview
 
-Nav2 (Navigation 2) is the navigation stack for ROS 2 that provides localization, mapping, and path planning capabilities. Isaac ROS enhances Nav2 with GPU acceleration and specialized components for humanoid robots, enabling efficient and robust navigation in complex environments.
+Navigation2 (Nav2) is the official navigation stack for ROS 2, providing path planning, execution, and obstacle avoidance capabilities. When adapted for humanoid robots, Nav2 requires special considerations for bipedal locomotion, balance constraints, and humanoid-specific kinematics.
 
 ## Learning Objectives
 
 After completing this chapter, you will be able to:
-- Configure Nav2 for humanoid robot navigation
-- Implement path planning algorithms for humanoid kinematics
-- Create navigation maps and localization systems
-- Handle dynamic obstacle avoidance for humanoid robots
-- Optimize navigation performance using Isaac ROS acceleration
+- Configure Nav2 for humanoid robot navigation with specific kinematic constraints
+- Implement path planning algorithms that account for humanoid-specific movement capabilities
+- Create and manage navigation maps optimized for humanoid robots
+- Handle dynamic obstacle avoidance with humanoid-specific safety requirements
+- Integrate perception data from Isaac ROS with Nav2 navigation system
+- Understand the principles of humanoid-aware path planning and execution
 
 ## Chapter Structure
 
 This chapter is organized into four main sections:
 
-1. **Path Planning**: Understanding and implementing path planning algorithms for humanoid robots
-2. **Navigation Maps**: Creating and managing navigation maps for humanoid navigation
-3. **Obstacle Avoidance**: Implementing dynamic obstacle avoidance for humanoid robots
-4. **Isaac ROS Nav2 Integration**: Leveraging Isaac ROS acceleration for navigation
+1. **Path Planning** - Understanding and implementing path planning algorithms for humanoid robots
+2. **Navigation Maps** - Creating and managing maps specifically optimized for humanoid navigation
+3. **Obstacle Avoidance** - Implementing dynamic obstacle handling with humanoid kinematic constraints
+4. **Nav2 Best Practices** - Optimizing navigation workflows and performance for humanoid applications
 
 Each section builds upon the previous one, but can also be studied independently depending on your specific needs.
 
 ## Prerequisites
 
 Before starting this chapter, ensure you have:
-- Solid understanding of ROS 2 navigation concepts
-- Knowledge of humanoid robot kinematics and constraints
-- Understanding of Isaac Sim and Isaac ROS concepts from previous chapters
-- Access to Isaac ROS navigation packages
+- Understanding of ROS 2 navigation concepts
+- Knowledge of Isaac ROS perception from Chapter 2
+- Understanding of humanoid robot kinematics and constraints
+- Basic knowledge of path planning algorithms
+- Familiarity with Isaac Sim environments from Chapter 1
 
 ## Getting Started
 
@@ -40,7 +42,7 @@ Begin with the Path Planning section to establish the foundation for understandi
 
 ## Related Concepts
 
-- Nav2 builds upon the sensor simulation concepts from Module 2
-- Navigation connects to the perception systems from Isaac ROS (Chapter 2)
-- These concepts together enable comprehensive autonomous navigation systems
-- Path planning algorithms integrate with control systems for execution
+- Nav2 builds upon the perception systems from Isaac ROS (Chapter 2)
+- Navigation connects with the simulation concepts from Isaac Sim (Chapter 1)
+- These concepts together enable complete AI-robotics navigation systems
+- Integration with sensor fusion provides environmental awareness for navigation

@@ -72,8 +72,8 @@ As an AI student, I want to implement accelerated perception algorithms using Is
 - [X] T022 [US2] Create sensor-data-processing.md content about sensor data handling and fusion
 - [X] T023 [US2] Add practical examples and exercises for Isaac ROS concepts
 - [X] T024 [US2] Include diagrams and visualizations for Isaac ROS concepts
-- [ ] T025 [US2] Create hands-on tutorials for Isaac ROS implementation
-- [ ] T026 [US2] Add assessment questions to verify understanding of Isaac ROS concepts
+- [X] T025 [US2] Create hands-on tutorials for Isaac ROS implementation
+- [X] T026 [US2] Add assessment questions to verify understanding of Isaac ROS concepts
 
 ## Phase 5: User Story 3 - Nav2: Navigation and Path Planning for Humanoids (Priority: P3)
 
@@ -81,7 +81,7 @@ As an AI student, I want to implement navigation and path planning algorithms us
 
 **Independent Test**: Students can load environment maps, set navigation goals for humanoid robots, and execute path planning algorithms that account for humanoid-specific kinematics and constraints.
 
-- [ ] T027 [US3] Create the Nav2 Navigation chapter index.md with overview
+- [X] T027 [US3] Create the Nav2 Navigation chapter index.md with overview
 - [ ] T028 [US3] Create path-planning.md content explaining path planning algorithms for humanoid robots
 - [ ] T029 [US3] Create navigation-maps.md content covering map creation and management
 - [ ] T030 [US3] Create obstacle-avoidance.md content about dynamic obstacle handling and kinematic constraints
