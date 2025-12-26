@@ -6,7 +6,7 @@ const config = {
   tagline: 'Learning ROS 2 fundamentals for AI integration',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://project-1-hackathon-txaw.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'facebook',
