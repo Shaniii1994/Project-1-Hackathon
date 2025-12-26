@@ -130,6 +130,34 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Module 4: Vision-Language-Action (VLA)',
+      items: [
+        'module-4-vla/index',
+        {
+          type: 'category',
+          label: 'Chapter 1: Voice-to-Action',
+          items: [
+            'module-4-vla/chapter-1-voice-to-action'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Chapter 2: Language-to-Plan',
+          items: [
+            'module-4-vla/chapter-2-language-to-plan'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Chapter 3: Capstone Project',
+          items: [
+            'module-4-vla/chapter-3-capstone-project'
+          ],
+        },
+      ],
+    },
   ],
 };
 

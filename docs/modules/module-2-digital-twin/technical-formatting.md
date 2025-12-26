@@ -10,9 +10,9 @@ Use single dollar signs for inline equations: $F = ma$
 ### Display Equations
 Use double dollar signs for display equations:
 
-$$v = \frac{ds}{dt}$$
+$$v = ds/dt$$
 
-$$a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$$
+$$a = dv/dt = d^2s/dt^2$$
 
 ## Technical Diagrams
 

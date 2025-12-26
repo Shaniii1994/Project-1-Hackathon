@@ -5,7 +5,6 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Module 1: The Robotic Nervous System',
-    Svg: require('@site/static/img/ros-logo.svg').default,
     description: (
       <>
         Learn ROS 2 fundamentals, Python integration with rclpy, and humanoid modeling with URDF.
@@ -15,7 +14,6 @@ const FeatureList = [
   },
   {
     title: 'Module 2: Digital Twin Simulation',
-    Svg: require('@site/static/img/unity-logo.svg').default,
     description: (
       <>
         Master physics simulation with Gazebo, high-fidelity environments in Unity,
@@ -25,7 +23,6 @@ const FeatureList = [
   },
   {
     title: 'Module 3: AI-Robot Brain',
-    Svg: require('@site/static/img/isaac-logo.svg').default,
     description: (
       <>
         Explore NVIDIA Isaac technologies for perception, simulation, and navigation intelligence
@@ -35,14 +32,9 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        {Svg && (
-          <Svg className={styles.featureSvg} role="img" />
-        )}
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
