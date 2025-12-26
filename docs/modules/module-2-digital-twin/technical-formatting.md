@@ -5,14 +5,15 @@ This document establishes consistent formatting and presentation for technical c
 ## Mathematical Notation
 
 ### Inline Equations
-Use single dollar signs for inline equations: $F = ma$
+Use single dollar signs for inline equations: `F = ma`
 
 ### Display Equations
-Use double dollar signs for display equations:
+Use code blocks for complex equations:
 
-$$v = ds/dt$$
-
-$$a = dv/dt = d^2s/dt^2$$
+```
+v = ds/dt
+a = dv/dt = d²s/dt²
+```
 
 ## Technical Diagrams
 
@@ -45,13 +46,13 @@ graph TD
 ## Notation Conventions
 
 ### Vectors and Matrices
-- Vectors: $\vec{v}$, $\mathbf{v}$, or $v$
-- Matrices: $\mathbf{R}$, $\mathbf{T}$
+- Vectors: `v⃗`, `**v**`, or `v`
+- Matrices: `**R**`, `**T**`
 
 ### Coordinate Systems
-- World frame: $W$
-- Robot frame: $R$
-- Sensor frame: $S$
+- World frame: `W`
+- Robot frame: `R`
+- Sensor frame: `S`
 
 ### Units
 - Distances: meters (m)

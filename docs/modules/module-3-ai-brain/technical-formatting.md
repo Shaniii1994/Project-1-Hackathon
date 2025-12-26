@@ -30,14 +30,15 @@ $ ros2 launch nav2_bringup navigation_launch.py
 ## Mathematical Notation
 
 ### Inline Equations
-Use single dollar signs for inline equations: $P = R^T(P' - t)$
+Use backticks for inline equations: `P = R^T(P' - t)`
 
 ### Display Equations
-Use double dollar signs for display equations:
+Use code blocks for complex equations:
 
-$$v = \frac{ds}{dt}$$
-
-$$SE(3) = \begin{bmatrix} R & t \\ 0^T & 1 \end{bmatrix}$$
+```
+v = ds/dt
+SE(3) = [R t; 0^T 1]
+```
 
 ## Technical Diagrams
 
@@ -74,14 +75,14 @@ graph TD
 ## Notation Conventions
 
 ### Vectors and Matrices
-- Vectors: $\vec{v}$, $\mathbf{v}$, or $v$
-- Matrices: $\mathbf{R}$, $\mathbf{T}$
+- Vectors: `v⃗`, `**v**`, or `v`
+- Matrices: `**R**`, `**T**`
 
 ### Coordinate Systems
-- **World Frame**: $W$
-- **Robot Frame**: $R$
-- **Camera Frame**: $C$
-- **Sensor Frame**: $S$
+- **World Frame**: `W`
+- **Robot Frame**: `R`
+- **Camera Frame**: `C`
+- **Sensor Frame**: `S`
 
 ### Units
 - Distances: meters (m)

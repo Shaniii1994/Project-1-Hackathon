@@ -63,9 +63,9 @@ Begin with Chapter 1 to learn the foundational concepts of voice-to-action proce
 
 ## Related Modules and Resources
 
-- **[Module 1: The Robotic Nervous System (ROS 2)](/ros-module-1/introduction)** - Foundational knowledge of ROS 2 concepts
-- **[Module 2: Digital Twin Simulation (Gazebo & Unity)](/modules/module-2-digital-twin/index)** - Simulation environments for testing VLA systems
-- **[Module 3: AI-Robot Brain (NVIDIA Isaac™)](/modules/module-3-ai-brain/index)** - Advanced AI and perception concepts
+- **[Module 1: The Robotic Nervous System (ROS 2)](/docs/ros-module-1/introduction)** - Foundational knowledge of ROS 2 concepts
+- **[Module 2: Digital Twin Simulation (Gazebo & Unity)](/docs/modules/module-2-digital-twin/)** - Simulation environments for testing VLA systems
+- **[Module 3: AI-Robot Brain (NVIDIA Isaac™)](/docs/modules/module-3-ai-brain/)** - Advanced AI and perception concepts
 - **[ROS 2 Documentation](https://docs.ros.org/en/rolling/)** - Official ROS 2 documentation
 - **[OpenAI API Documentation](https://platform.openai.com/docs/)** - For LLM integration
 - **[NVIDIA Isaac Documentation](https://docs.nvidia.com/isaac/)** - For advanced AI integration

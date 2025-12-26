@@ -2,11 +2,11 @@
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
-  title: 'ROS 2 for AI Students',
-  tagline: 'Learning ROS 2 fundamentals for AI integration',
+  title: 'Physical AI & Humanoid Robotics',
+  tagline: 'by Shaniyal Siddiqui',
   favicon: 'img/favicon.ico',
 
-  url: 'https://project-1-hackathon-txaw.vercel.app/',
+  url: 'https://your-docusaurus-site.example.com',
   baseUrl: '/',
 
   organizationName: 'facebook',
