@@ -1,0 +1,291 @@
+/**
+ * Navbar Styles for Docusaurus Documentation Site
+ * Modern, responsive navigation with clean design
+ */
+
+/* Main Navbar Container */
+.navbar {
+  background-color: white;
+  box-shadow: var(--ifm-shadow-sm);
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: var(--ifm-z-index-navbar);
+  transition: all 0.3s ease;
+}
+
+.navbarScrolled {
+  box-shadow: var(--ifm-shadow);
+  padding: 0.5rem 0;
+}
+
+/* Navbar Content Container */
+.navbarContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo/Brand Styling */
+.navbarLogo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  font-size: var(--ifm-font-size-xl);
+  transition: color 0.3s ease;
+}
+
+.navbarLogo:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+.navbarLogoIcon {
+  margin-right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+/* Navigation Links */
+.navbarNav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: var(--ifm-color-content);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: var(--ifm-radius);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbarLink:hover {
+  color: var(--ifm-color-primary);
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+.navbarLinkActive {
+  color: var(--ifm-color-primary);
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Mobile Menu Button */
+.navbarMenuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--ifm-color-content);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: var(--ifm-radius);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.navbarMenuButton:hover {
+  color: var(--ifm-color-primary);
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Search Container */
+.navbarSearch {
+  margin-left: 1rem;
+}
+
+/* Navigation Items Container */
+.navbarItems {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Dropdown Menu */
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border-radius: var(--ifm-radius-lg);
+  box-shadow: var(--ifm-shadow-lg);
+  padding: 0.5rem 0;
+  min-width: 200px;
+  z-index: var(--ifm-z-index-overlay);
+  border: 1px solid var(--ifm-color-border);
+}
+
+.dropdownItem {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: var(--ifm-color-content);
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.dropdownItem:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+  color: var(--ifm-color-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 996px) {
+  .navbarNav {
+    display: none;
+  }
+
+  .navbarMenuButton {
+    display: block;
+  }
+
+  .navbarItems {
+    gap: 0.5rem;
+  }
+}
+
+/* Mobile Menu Open State */
+.navbarMenuOpen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  z-index: var(--ifm-z-index-overlay - 1);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.navbarMenuContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbarMenuNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.navbarMenuLink {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--ifm-color-content);
+  border-radius: var(--ifm-radius);
+  transition: all 0.3s ease;
+}
+
+.navbarMenuLink:hover {
+  background-color: rgba(37, 99, 235, 0.05);
+  color: var(--ifm-color-primary);
+}
+
+.navbarMenuLinkActive {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--ifm-color-primary);
+}
+
+.navbarMenuClose {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--ifm-color-content);
+  padding: 0.5rem;
+  border-radius: var(--ifm-radius);
+}
+
+.navbarMenuClose:hover {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--ifm-color-primary);
+}
+
+/* Animation for mobile menu */
+.navbarMenuOpen {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dark Mode Support */
+[data-theme='dark'] .navbar {
+  background-color: #0f172a;
+  border-bottom: 1px solid #334155;
+}
+
+[data-theme='dark'] .navbarLogo {
+  color: white;
+}
+
+[data-theme='dark'] .navbarLink {
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .navbarLink:hover {
+  color: var(--ifm-color-primary-light);
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='dark'] .navbarLinkActive {
+  color: var(--ifm-color-primary-light);
+  background-color: rgba(59, 130, 246, 0.2);
+}
+
+[data-theme='dark'] .dropdownMenu {
+  background: #1e293b;
+  border: 1px solid #475569;
+}
+
+[data-theme='dark'] .dropdownItem {
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .dropdownItem:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--ifm-color-primary-light);
+}
+
+/* Accessibility */
+.navbarLink:focus-visible,
+.navbarMenuButton:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling indicator */
+.navbarScrolled {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .navbarScrolled {
+  background-color: rgba(15, 23, 42, 0.9);
+}

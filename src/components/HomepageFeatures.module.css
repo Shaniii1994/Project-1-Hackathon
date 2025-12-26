@@ -1,11 +1,2 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
-}
+/* This file is no longer needed as we're using the centralized homepage.module.css */
+/* All feature styles are now in src/css/homepage.module.css */

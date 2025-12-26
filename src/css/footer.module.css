@@ -1,0 +1,271 @@
+/**
+ * Footer Styles for Docusaurus Documentation Site
+ * Modern, professional footer with responsive design
+ */
+
+/* Main Footer Container */
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+  color: white;
+  padding: 3rem 0 1.5rem;
+  margin-top: auto;
+}
+
+/* Footer Content Container */
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Footer Content Grid */
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer Section */
+.footerSection {
+  margin-bottom: 1.5rem;
+}
+
+.footerSectionTitle {
+  font-size: var(--ifm-font-size-lg);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footerSectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background-color: var(--ifm-color-primary-light);
+}
+
+/* Footer Links */
+.footerLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerLinkItem {
+  margin-bottom: 0.75rem;
+}
+
+.footerLinkItem:last-child {
+  margin-bottom: 0;
+}
+
+.footerLink {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footerLink:hover {
+  color: white;
+  transform: translateX(4px);
+}
+
+/* Footer Logo */
+.footerLogo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: var(--ifm-font-size-xl);
+  margin-bottom: 1rem;
+}
+
+.footerLogoIcon {
+  margin-right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+/* Footer Description */
+.footerDescription {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: var(--ifm-line-height-relaxed);
+  margin-bottom: 1.5rem;
+}
+
+/* Footer Social Links */
+.footerSocial {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footerSocialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footerSocialLink:hover {
+  background-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+}
+
+/* Footer Bottom */
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.footerCopyright {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--ifm-font-size-sm);
+  margin: 0;
+}
+
+/* Footer Navigation */
+.footerNav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.footerNavLink {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: var(--ifm-font-size-sm);
+  transition: all 0.3s ease;
+}
+
+.footerNavLink:hover {
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footerSection {
+    margin-bottom: 1rem;
+  }
+
+  .footerNav {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
+
+/* Dark Mode Support */
+[data-theme='dark'] .footer {
+  background-color: #0f172a;
+}
+
+/* Accessibility */
+.footerLink:focus-visible,
+.footerSocialLink:focus-visible {
+  outline: 2px solid var(--ifm-color-primary-light);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Footer Newsletter */
+.footerNewsletter {
+  margin-top: 1rem;
+}
+
+.footerNewsletterForm {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.footerNewsletterInput {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--ifm-radius);
+  font-size: var(--ifm-font-size-sm);
+}
+
+.footerNewsletterButton {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--ifm-radius);
+  padding: 0.5rem 1rem;
+  font-size: var(--ifm-font-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footerNewsletterButton:hover {
+  background-color: var(--ifm-color-primary-light);
+}
+
+/* Footer Language Selector */
+.footerLanguage {
+  margin-top: 1rem;
+}
+
+.footerLanguageSelect {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--ifm-radius);
+  padding: 0.5rem;
+  font-size: var(--ifm-font-size-sm);
+}
+
+/* Footer Back to Top */
+.footerBackToTop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.footerBackToTop.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footerBackToTop:hover {
+  background-color: var(--ifm-color-primary-light);
+  transform: translateY(-2px);
+}

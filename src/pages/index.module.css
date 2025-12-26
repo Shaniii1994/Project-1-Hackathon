@@ -1,23 +1,14 @@
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * locally scoped CSS by default.
+ * This file is kept for compatibility but most styles have been moved to homepage.module.css
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem 0;
-  }
-}
-
+/* Legacy styles - keeping for backward compatibility if needed */
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
